@@ -1,8 +1,8 @@
 {
-  "name": "authentication_app",
+  "name": "back_end",
   "version": "1.0.0",
   "description": "",
-  "main": "Server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
