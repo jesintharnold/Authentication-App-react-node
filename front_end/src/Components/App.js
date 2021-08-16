@@ -1,9 +1,13 @@
 import '../Styles/App.scss';
+import Login from './Login/Login';
 
 function App() {
   return (
     <div className="App">
-      HELLO BABY`s
+    <Login/>
+    <div>
+    created by username
+    </div>
     </div>
   );
 }
