@@ -6,9 +6,9 @@ import Facebook from "../../Assets/Facebook.svg";
 import Github from "../../Assets/Gihub.svg";
 import Twitter from "../../Assets/Twitter.svg";
 
-const Login=()=>{
+export const Register=()=>{
     return (
-        <div className="login">
+        <div className="Register">
             <img src={DevSVG} alt="Not Found"/>
             <span className="span_1">
             Join thousands of learners from around the world 
@@ -38,11 +38,70 @@ const Login=()=>{
              </div>
 
              <span className="loginredirect">
-             Adready a member? <a>Login</a>
+             Already a member? <a>Login</a>
              </span>
 
         </div>
     )
 }
 
-export default Login;
+
+export const Login=()=>{
+    return (
+        <div className="login">
+            <img src={DevSVG} alt="Not Found"/>
+            <span className="span_1">
+             Login
+            </span>
+            <div className="input_container">
+              <div className="email cont">
+              <i class="uil uil-envelope-alt"></i>
+              <input type="text" placeholder="Email"/>
+              </div>
+              <div className="password cont">
+              <i class="uil uil-padlock"></i>
+              <input type="password" placeholder="Password"/>
+              </div>
+              <button>Start coding now </button>
+             </div>
+             <span className="span_3">or continue with these social profile</span>
+             <div className="auth_cont">
+              <img src={Google}/>
+              <img src={Facebook}/>
+              <img src={Twitter}/>
+              <img src={Github}/>
+              
+             </div>
+
+             <span className="loginredirect">
+             Already a member? <a>Login</a>
+             </span>
+
+        </div>
+
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,13 +1,15 @@
 import '../Styles/App.scss';
-import Login from './Login/Login';
+import {Register,Login} from './Login/Login';
+import PersonalInfo from './PersonalInfo';
 
 function App() {
   return (
     <div className="App">
-    <Login/>
-    <div>
-    created by username
-    </div>
+    <PersonalInfo/>
+    <div className="foot">
+     <span> JesinthArnold</span>
+     <span>devchallenges.io</span>
+     </div>
     </div>
   );
 }
