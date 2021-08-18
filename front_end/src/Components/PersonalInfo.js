@@ -21,7 +21,7 @@ const PersonalInfo=()=>{
              <div className="cont_flex">
              <h>PHOTO</h>
              <div className="profile__img">
-             <img src={Google}/>
+             <img src={Google} alt="profile_image"/>
              </div> 
              </div>
 
