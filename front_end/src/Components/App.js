@@ -1,6 +1,6 @@
 import '../Styles/App.scss';
 import {Register,Login} from './Login/Login';
-import {PersonalInfo} from './PersonalInfo';
+import {PersonalInfo,PersonalInfoEdit} from './PersonalInfo';
 
 function App() {
   return (

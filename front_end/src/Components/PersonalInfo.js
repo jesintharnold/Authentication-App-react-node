@@ -1,5 +1,6 @@
 import Google from "../Assets/Google.svg";
 import '../Styles/PersonalInfo.scss';
+
 export const PersonalInfo=()=>{
     return(
         <div className="personal_info">
@@ -49,13 +50,66 @@ export const PersonalInfo=()=>{
              <h>PASSWORD</h>
              <p>***********</p>
              </div>
-
-           </div>
-
-
-           </div>
+             </div>
+             </div>
            </div>
     )
 }
 
 
+export const PersonalInfoEdit=()=>{
+return(
+  <div className="personal_info_edit">
+
+   <a href="/" class="back">
+   <i class="uil uil-angle-left"></i>
+   <span>Back</span>
+   </a>
+
+
+   <div className="info_edit_container">
+   <div className="info__title">
+     <span>Change Info</span>
+     <span>Changes will be reflected to every services</span>
+   </div>
+   </div>
+   
+   <div className="profile_img_cont">
+     <div className="img_cont">
+     <img/>
+     </div>
+     <span>CHANGE PHOTO</span>
+   </div>
+   
+   <div className="input_cont name">
+     <label for="name"></label>
+     <input type="text" name="name" id="name"/>
+   </div>
+   
+
+   <div className="input_cont bio">
+     <label for="bio"></label>
+     <input type="textarea" name="bio" id="bio"/>
+   </div>
+
+   <div className="input_cont phone">
+     <label for="phone"></label>
+     <input type="text" name="phone" id="phone"/>
+   </div>
+
+
+   <div className="input_cont email">
+     <label for="email"></label>
+     <input type="email" name="email" id="email"/>
+   </div>
+
+   <div className="input_cont password">
+     <label for="password"></label>
+     <input type="text" name="password" id="password"/>
+   </div>
+
+    <button className="save__bt">Save</button>
+
+  </div>
+)
+}
