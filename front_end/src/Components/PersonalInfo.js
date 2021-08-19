@@ -61,55 +61,63 @@ export const PersonalInfoEdit=()=>{
 return(
   <div className="personal_info_edit">
 
-   <a href="/" class="back">
+
+   <div className="anchor__tag">
+   <a href="/" className="back">
    <i class="uil uil-angle-left"></i>
    <span>Back</span>
    </a>
+   </div>
 
 
    <div className="info_edit_container">
+
    <div className="info__title">
      <span>Change Info</span>
      <span>Changes will be reflected to every services</span>
    </div>
-   </div>
+   
    
    <div className="profile_img_cont">
      <div className="img_cont">
-     <img/>
+    
+     <img src={Google}/>
      </div>
-     <span>CHANGE PHOTO</span>
+     <div>
+     CHANGE PHOTO
+     </div>
    </div>
    
    <div className="input_cont name">
-     <label for="name"></label>
-     <input type="text" name="name" id="name"/>
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name" placeholder="Enter your name..."/>
    </div>
    
 
    <div className="input_cont bio">
-     <label for="bio"></label>
-     <input type="textarea" name="bio" id="bio"/>
+     <label for="bio">Bio</label>
+     <textarea type="textarea" rows="4" name="bio" id="bio" placeholder="Enter your bio..."/>
    </div>
 
    <div className="input_cont phone">
-     <label for="phone"></label>
-     <input type="text" name="phone" id="phone"/>
+     <label for="phone">Phone</label>
+     <input type="text" name="phone" id="phone" placeholder="Enter your phone..."/>
    </div>
 
 
    <div className="input_cont email">
-     <label for="email"></label>
-     <input type="email" name="email" id="email"/>
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email" placeholder="Enter your email..."/>
    </div>
 
    <div className="input_cont password">
-     <label for="password"></label>
-     <input type="text" name="password" id="password"/>
+     <label for="password">Password</label>
+     <input type="text" name="password" id="password" placeholder="Enter your new password..."/>
    </div>
 
     <button className="save__bt">Save</button>
 
+  </div>
   </div>
 )
 }

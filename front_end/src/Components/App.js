@@ -5,7 +5,7 @@ import {PersonalInfo,PersonalInfoEdit} from './PersonalInfo';
 function App() {
   return (
     <div className="App">
-    <PersonalInfo/>
+    <PersonalInfoEdit/>
     <div className="foot">
      <span> JesinthArnold</span>
      <span>devchallenges.io</span>
