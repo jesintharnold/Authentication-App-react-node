@@ -1,6 +1,6 @@
 import Google from "../Assets/Google.svg";
 import '../Styles/PersonalInfo.scss';
-const PersonalInfo=()=>{
+export const PersonalInfo=()=>{
     return(
         <div className="personal_info">
           <div className="title_info">
@@ -59,4 +59,3 @@ const PersonalInfo=()=>{
 }
 
 
-export default PersonalInfo;
