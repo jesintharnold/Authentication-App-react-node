@@ -6,8 +6,7 @@ import {Head} from './Header';
 function App() {
   return (
     <div className="App">
-      <Head/>
-    <PersonalInfoEdit/>
+    <Register/>
     <div className="foot">
      <span> JesinthArnold</span>
      <span>devchallenges.io</span>

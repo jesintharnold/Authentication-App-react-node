@@ -7,22 +7,19 @@
 
 .App{
     min-width:100%;
-    // border:1px solid red;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     min-height:calc(100vh - 3rem);
     box-sizing: border-box;
     padding:0rem 1rem;
-    display: grid;
-    grid-template-rows:repeat(30,minmax(0,auto));
+    display: flex;
+    flex-direction: column;
 }
 
 
 
 
 .foot{
-    
+    min-width:100%;
+    margin-top:3rem;
     align-self: end;
     display: flex;
     flex-direction: row;
