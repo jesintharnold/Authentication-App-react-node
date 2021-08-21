@@ -10,11 +10,12 @@ export const Head=()=>{
 return(
     <div className="Head">
         <img src={DevSvg} alt="Not Found"/>
+        <div className="Name_plate__wrapper">
          <div className="name__plate" onClick={()=>setToggle(!toggle)}>
            <img src="https://unsplash.com/photos/x_8oJhYU31k/download?force=true&w=640"/>
            <div className="Name">Xanthe Neal</div>
            <i  className={toggle?'uis uis-triangle triangle  option__active':'uis uis-triangle triangle'}></i> 
-
+           </div>
            <div className={toggle?'options__plate  option__active':'options__plate'}>
              <div className="profile">
                  <i class="uil uil-user-circle"></i>
@@ -31,6 +32,7 @@ return(
              </button>
          </div>
          </div>
+         
          
     </div>
 
