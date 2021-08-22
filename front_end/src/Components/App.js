@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Register/>  
+      <PersonalInfoEdit/>  
     <div className="foot">
      <span> JesinthArnold</span>
      <span>devchallenges.io</span>
