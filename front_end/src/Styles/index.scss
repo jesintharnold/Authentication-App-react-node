@@ -15,6 +15,7 @@ body {
   box-sizing: border-box;
   padding:0;
   padding:0rem 1rem;
+  transition:1.5s;
 }
 
 code {
@@ -25,6 +26,7 @@ code {
 
 .dark__active{
   color:white;
-  background-color:black;
+  background-color:rgba(0,0,0,0.9);
+  transition:1.5s;
 
 }
