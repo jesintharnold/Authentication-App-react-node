@@ -1,0 +1,42 @@
+.check__center{
+
+    input[type="checkbox"]{
+      height:20px;
+      width:40px;
+      background-color: transparent;
+      -webkit-appearance:none;
+      border-radius:1.5rem;
+      box-shadow:inset 0px 0px 3px  rgba(130,130,130,1);
+      position: relative;
+      outline: none;
+      
+    
+
+      &::before{
+          content: '';
+          position:absolute;
+          width:20px;
+          height: 20px;
+          background-color: #2F80ED;
+          border-radius:50%;
+          box-sizing: border-box;
+          border:1px solid rgba(130,130,130,0.5);
+          transform: scale(1.1);
+          transition: .5s;
+        }
+
+
+      &:checked{
+          
+
+        background-color:rgba(189,189,189,0.5);
+        
+        &::before{
+            left:20px;
+            transition: .5s;
+        }
+      }  
+        
+    }
+
+}

@@ -9,7 +9,7 @@ import Twitter from "../../Assets/Twitter.svg";
 export const Register=()=>{
     return (
         <div className="Register">
-            <img src={DevSVG} alt="Not Found"/>
+            {/* <img src={DevSVG} alt="Not Found"/> */}
             <span className="span_1">
             Join thousands of learners from around the world 
             </span>
@@ -49,7 +49,7 @@ export const Register=()=>{
 export const Login=()=>{
     return (
         <div className="login">
-            <img src={DevSVG} alt="Not Found"/>
+            {/* <img src={DevSVG} alt="Not Found"/> */}
             <span className="span_1">
              Login
             </span>
